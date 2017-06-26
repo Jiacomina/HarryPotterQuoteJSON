@@ -1,6 +1,7 @@
-Access-Control-Allow-Origin: *
-[
-{
+jsonCallback(
+  {
+    "Quotes":
+[{
 	"Quote":"Sperm Whales can sleep with their bodies completely vertical to the ocean floor.", 
 	"Likes":0, 
 	"Dislikes":0,
@@ -25,3 +26,5 @@ Access-Control-Allow-Origin: *
 	"id": 3
 }
 ]
+}
+)
