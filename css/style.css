@@ -1,37 +1,70 @@
 body{
   font-size: 16px;
   font-family: sans-serif;
+  margin: 0px;
+  background-color: #e2ecf0;
 }
+.selectDisable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
 .quote-button {
-  background-color: pink;
+  background-color: rgb(167 ,193, 235);
+  font-size: 150%;
 }
 .button{
 	border: none;
 	padding: 5px;
 	margin: 5px;
-  font-size: 70%;
 }
 .button:hover{
 	opacity: 0.8;
   transform: scale(1.1);
 }
-.quote {
-  font-family: Times;
-	height: 50px;
-	vertical-align: middle;
+.quote-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  height: 30vw;
+  width: 30vw;
+  margin: 0 auto;
+
+ 
+}
+.quote-box-bump{
+  -webkit-animation: swing 1s ease;
+  -webkit-animation-play-state: paused;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+.quote{
+  font-size: 120%;
+  width: 70%; 
+  font-family: 'Inconsolata', monospace;
 }
 .title {
-  font-family: Courier;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 7px;
+  margin-top: 25%;
+  font-size: 350%;
 }
 .page {
-  display: table;
-  height: 100vh;
-  width: 60vw;
+  width: 40vw;
   text-align: center;
 }
 .content {
-  vertical-align: middle;
-  display: table-cell;  
+  width: 40vw;
+  text-align: center;
 }
 .like{
 	background-color: rgb(123,234,156);
@@ -41,8 +74,10 @@ body{
 	background-color: rgb(255, 100,100);
   visibility: hidden;
 }
+
+/* Buttons */
 .google-button{
-  background-color: rgb(123,234,156);
+  background-color: rgb(207 ,193, 235);
 }
 
 .twitter-share-button{
@@ -59,3 +94,36 @@ body{
   border: none;
   font-size: 70%;
 }
+
+/*Waves Animation*/
+@keyframes pulsate {
+  0% { transform: scale(1); bottom: 0%}
+  50% { transform: scale(1.01); bottom:4%}
+  100% { transform: scale(1); bottom: 0%}
+}
+.waves{
+  background-image: url("https://raw.githubusercontent.com/Jiacomina/WhaleFactsGenerator/master/Images/waves.png");
+  background-repeat: repeat-x;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 150px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  animation: 15000ms pulsate infinite alternate ease-in-out;
+  animation-fill-mode: backwards;
+}
+.footer{
+  height:4%;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0px;
+  right: 0;
+  background-color: rgb(167 ,193, 235) ;
+  position: absolute;
+}
+
+
