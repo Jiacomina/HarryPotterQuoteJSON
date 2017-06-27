@@ -43,11 +43,12 @@ body{
   background-color: rgb(123,234,156);
 }
 
-#twitter-share-button{
+.twitter-share-button{
   visibility: hidden;
 }
-#fb-share-button{
+.fb-share-button{
   visibility: hidden;
+  display: inline-block;
 }
 #share-text{
   visibility: hidden;

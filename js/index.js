@@ -30,8 +30,8 @@ $(document).ready(function() {
 	$("#quote-button").on("click", function(event) {
 		console.log("Button clicked");
 		getFact();
-		$("#twitter-share-button").css("visibility", "visible");
-		$("#facebook-button").css("visibility", "visible");
+		$(".twitter-share-button").css("visibility", "visible");
+		$(".fb-share-button").css("visibility", "visible");
 		$("#share-text").css("visibility", "visible");
 	});
 	
