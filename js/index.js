@@ -1,6 +1,6 @@
 var jsonFile = [];
 var id = -1;
-$.getJSON('./whaleFacts.json=?', function(json) {
+$.getJSON('https://raw.githubusercontent.com/Jiacomina/WhaleFactsGenerator/master/whaleFacts.json?', function(json) {
 	jsonFile = json;
 });
 function getFact() {
