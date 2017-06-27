@@ -1,6 +1,6 @@
 var jsonFile = [];
 var id = -1;
-$.getJSON("https://api.myjson.com/bins/18yq43.json?", function(json) {
+$.getJSON("/whaleFacts.json", function(json) {
 	jsonFile = json;
 });
 function getFact() {
@@ -33,5 +33,5 @@ $(document).ready(function() {
 });
 
 /*	
-	
+	https://api.myjson.com/bins/18yq43.json?
 	*/
