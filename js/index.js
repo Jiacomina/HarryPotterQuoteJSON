@@ -13,6 +13,7 @@ function getFact() {
 
 $(document).ready(function() {
 	$("#quote-button").on("click", function(event) {
+		console.log("Button clicked");
 		getFact();
 	});
 	
