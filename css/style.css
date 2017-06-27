@@ -35,23 +35,27 @@ body{
 }
 .like{
 	background-color: rgb(123,234,156);
+  visibility: hidden;
 }
 .dislike{
 	background-color: rgb(255, 100,100);
+  visibility: hidden;
 }
 .google-button{
   background-color: rgb(123,234,156);
 }
 
 .twitter-share-button{
-  visibility: hidden;
+  padding: 0px;
+  display: inline-block;
+  margin: 0px;
 }
 .fb-share-button{
-  visibility: hidden;
   display: inline-block;
+  padding: 0px;
+  margin: 0px;
 }
 #share-text{
-  visibility: hidden;
   border: none;
   font-size: 70%;
 }
