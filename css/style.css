@@ -1,0 +1,35 @@
+.quote-button {
+  background-color: pink;
+}
+.button{
+	border: none;
+	padding: 5px;
+	margin: 5px;
+}
+.button:hover{
+	opacity: 0.5;
+}
+.quote {
+  font-family: Times;
+	height: 50px;
+	vertical-align: middle;
+}
+.title {
+  font-family: Courier;
+}
+.page {
+  display: table;
+  height: 100vh;
+  width: 30vw;
+  text-align: center;
+}
+.content {
+  vertical-align: middle;
+  display: table-cell;  
+}
+.like{
+	background-color: rgb(150,255,150);
+}
+.dislike{
+	background-color: rgb(255, 100,100);
+}
