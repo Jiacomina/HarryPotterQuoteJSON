@@ -20,15 +20,15 @@ $(document).ready(function() {
 	$("#like").on("click", function(event){
 		if(id != -1){
 			console.log("liked: " + id);
-			json(id).likes++;
-			id = -1;
+			// jsonFile(id).likes++;
+			// id = -1;
 		}
 	});
 	$("#dislike").on("click", function(event){
 		if(id != -1){
 			console.log("disliked: " + id);
-			json(id).dislikes++;
-			id = -1;
+			// jsonFile(id).dislikes++;
+			// id = -1;
 		}
 	});
 });
