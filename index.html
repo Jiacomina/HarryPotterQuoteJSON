@@ -13,6 +13,14 @@
 
 <body>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <center>
 
     <div class="page">
@@ -36,9 +44,7 @@
           Share:
         </p>
         <a href="https://twitter.com/share" target = "_blank" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <button id="facebook-button" class=" button">
-          Facebook
-        </button>
+        <div class="fb-share-button" data-href="https://jiacomina.github.io/WhaleFactsGenerator/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjiacomina.github.io%2FWhaleFactsGenerator%2F&amp;src=sdkpreparse">Share</a></div>
       </div>
     </div>
   </center>
