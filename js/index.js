@@ -1,11 +1,12 @@
 var jsonFile = [];
 var id = -1;
-var quote = "";
+var quote = null;
 var nFacts;
 $.getJSON('https://raw.githubusercontent.com/Jiacomina/WhaleFactsGenerator/master/whaleFacts.json?', function(json) {
 	jsonFile = json;
 });
 
+// Ensures new quote is not same as previous
 function newRandom(){
 	if(nFacts != null){
 		var randomNum = 0;
@@ -22,12 +23,16 @@ function getFact() {
 	quote = JSON.stringify(jsonFile[randomNum].Quote);
 	$(".quote").html(quote);
 	id = randomNum;
+	console.log(id);
 }
 
 $(document).ready(function() {
 	$("#quote-button").on("click", function(event) {
 		console.log("Button clicked");
 		getFact();
+		$("#twitter-share-button").css("visibility", "visible");
+		$("#facebook-button").css("visibility", "visible");
+		$("#share-text").css("visibility", "visible");
 	});
 	
 	$("#like").on("click", function(event){
@@ -53,6 +58,7 @@ $(document).ready(function() {
 		}
 		
 	});
+
 });
 
 /*	

@@ -42,3 +42,20 @@ body{
 .google-button{
   background-color: rgb(123,234,156);
 }
+
+#twitter-share-button{
+  visibility: hidden;
+  background-color: #4099FF; 
+    color: white;
+
+}
+#facebook-button{
+  visibility: hidden;
+  background-color: #3b5998;
+  color: white;
+}
+#share-text{
+  visibility: hidden;
+  border: none;
+  font-size: 70%;
+}
