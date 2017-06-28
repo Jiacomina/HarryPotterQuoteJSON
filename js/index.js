@@ -31,7 +31,7 @@ $(document).ready(function() {
 	.click(function() {
 		var el     = $(this),  
 	    newone = el.clone(true);
-	    $(".quote-box").css("opacity",0.9);
+	    $(".quote-box").css("opacity",0.8);
 	    $(".quote").html("Echolocating...");
  		$(".quote-box").addClass('quote-box-shake');
 		console.log("Button clicked");
