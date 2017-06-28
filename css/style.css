@@ -1,5 +1,5 @@
 body{
-  font-size: 4vw;
+  font-size: 14px;
   font-family: sans-serif;
   margin: 0px;
   background-color: #e2ecf0;
@@ -105,7 +105,9 @@ body{
   display: inline-block;
   margin: 0px;
 }
-
+.fb-share-button{
+  margin-bottom: 5px;
+}
 #share-text{
   border: none;
   font-size: 70%;
