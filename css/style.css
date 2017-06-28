@@ -99,15 +99,18 @@ body{
   cursor: pointer;
   margin-bottom: 0px;
   padding: 2px;
+  vertical-align: top;s
 }
 
 .twitter-share-button{
   padding: 0px;
   display: inline-block;
   margin: 0px;
+  vertical-align: top;
 }
 .fb-share-button{
-  margin-bottom: 5px;
+  padding-bottom: 5px;
+  vertical-align: top;
 }
 #share-text{
   border: none;
