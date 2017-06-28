@@ -38,10 +38,10 @@ body{
   margin: 0;
   background-color: rgb(246 ,249, 250);
   border-radius: 50%;
-  height: 275px;
-  width: 275px;
-  max-width: 40vh;
-  max-height: 40vh;
+  height: 200px;
+  width: 200px;
+  max-width: 45vh;
+  max-height: 45vh;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -176,13 +176,13 @@ body{
 
 @media all and (min-width: 800px) {
 .title{
-  font-size: 50px;
+  font-size: 35px;
   }
 .paragraph{
   font-size: 14px;
   }
   .quote{
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media all and (max-height: 350px) {
