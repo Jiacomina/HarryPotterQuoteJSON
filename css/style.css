@@ -36,26 +36,36 @@ body{
   border-radius: 50%;
   height: 30vw;
   width: 30vw;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 200px;
+  min-height: 200px;
   margin: 0 auto;
-
- 
 }
-.quote-box-bump{
-  -webkit-animation: swing 1s ease;
-  -webkit-animation-play-state: paused;
-        animation: swing 1s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
+.quote-box-shake{
+  animation: shake 0.5s cubic-bezier(.36,.07,.19,.37) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.quote-box:hover{
+  transform: scale(1.04);
+  transition-timing-function: ease 4s;
+  transition: all .2s ease-in-out;
 }
 .quote{
-  font-size: 120%;
+  font-size: 110%;
   width: 70%; 
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto Condensed', monospace;
+  color: rgb(74, 86 , 108);
 }
 .title {
   font-family: 'Fjalla One', sans-serif;
   letter-spacing: 7px;
   margin-top: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
   font-size: 350%;
 }
 .page {
@@ -105,15 +115,22 @@ body{
   background-image: url("https://raw.githubusercontent.com/Jiacomina/WhaleFactsGenerator/master/Images/waves.png");
   background-repeat: repeat-x;
   background-size: cover;
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 150px;
   left: 0px;
   right: 0px;
-  bottom: 0px;
+  bottom: 4%;
   margin-bottom: 0px;
-  animation: 15000ms pulsate infinite alternate ease-in-out;
-  animation-fill-mode: backwards;
+  animation-name: floating;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating{
+  from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 50px); }
+    to   { transform: translate(0, -0px); }  
 }
 .footer{
   height:4%;
@@ -123,7 +140,24 @@ body{
   margin-bottom: 0px;
   right: 0;
   background-color: rgb(167 ,193, 235) ;
-  position: absolute;
+  position: fixed;
 }
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
 

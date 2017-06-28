@@ -1,6 +1,6 @@
 var jsonFile = [];
 var id = -1;
-var quote = null;
+var quote = "<b>Click to generate a new Whale Fact!<b>";
 var nFacts;
 $.getJSON('https://raw.githubusercontent.com/Jiacomina/WhaleFactsGenerator/master/whaleFacts.json?', function(json) {
 	jsonFile = json;
@@ -21,18 +21,31 @@ function getFact() {
 	nFacts = jsonFile.length;
 	randomNum = newRandom();
 	quote = JSON.stringify(jsonFile[randomNum].Quote);
-	$(".quote").html(quote);
 	id = randomNum;
 	console.log(id);
 }
 
 $(document).ready(function() {
-	$(".waves").a
-	$("#quote-button").on("click", function(event) {
+	$(".quote").html(quote);
+	$(".quote-box").css('cursor','pointer')
+	.click(function() {
+		var el     = $(this),  
+	    newone = el.clone(true);
+	    $(".quote-box").css("opacity",0.9);
+	    $(".quote").html("Echolocating...");
+ 		$(".quote-box").addClass('quote-box-shake');
 		console.log("Button clicked");
-		getFact();
-		$(".twitter-share-button").attr("href", "https://twitter.com/share?text="+ quote + " - Whale Fact Generator at &url=https://jiacomina.github.io/WhaleFactsGenerator&");
-		$('.quote-box').addClass('.quote-box-bump');
+
+		$(".quote-box").bind('animationend', function(){
+			console.log("hi");
+			getFact();
+			$(".quote-box").css('cursor','pointer')
+			$(".twitter-share-button").attr("href", "https://twitter.com/share?text="+ quote + " - Whale Fact Generator at &url=https://jiacomina.github.io/WhaleFactsGenerator&");
+			el.before(newone);
+			$(".quote-box:last").remove();
+			$(".quote").html(quote);
+    	});
+		
 	});
 	
 	$("#like").on("click", function(event){
