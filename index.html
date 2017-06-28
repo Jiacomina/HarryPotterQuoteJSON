@@ -12,15 +12,12 @@
 <body>
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
-    fjs.parentNode.insertBefore(js, fjs);
-
-  }(document, 'script', 'facebook-jssdk')
-  );
-  </script>
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <center>
           <h1 class="title"> Whale Hello<br>There!<br></h1>
 
@@ -41,7 +38,7 @@
         <!-- <button id="quote-button" class="quote-button button">New Whale Fact!</button> -->
 
         <p class = "paragraph">Don't Believe me? Google it then.</p><br>
-        <img src = "https://freeiconshop.com/wp-content/uploads/edd/google-flat.png" id="google-button" class="google-button button paragraph" alt = "Google Fact">
+        <img src = "http://www.logospike.com/wp-content/uploads/2015/11/Google_Logo_Vector_07.png" id="google-button" class="google-button button paragraph" alt = "Google Fact">
 
         <!-- Twitter button -->
         <a href="https://twitter.com/share?text=I found this 'Whale Fact Generator' at &url=https://jiacomina.github.io/WhaleFactsGenerator& " target = "_blank" class="twitter-share-button paragraph" data-show-count="false">Tweet</a>
@@ -49,10 +46,7 @@
         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         <!-- Facebook button -->
-        <div class="fb-share-button " data-href="https://jiacomina.github.io/WhaleFactsGenerator/" data-layout="button_count" data-size="small" data-mobile-iframe="false">
-
-          <a class="fb-xfbml-parse-ignore paragraph" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjiacomina.github.io%2FWhaleFactsGenerator%2F&amp;src=sdkpreparse">Share</a>
-        </div>
+        <div class="fb-share-button" data-href="https://jiacomina.github.io/WhaleFactsGenerator/" data-layout="button_count" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore paragraph" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjiacomina.github.io%2FWhaleFactsGenerator%2F&amp;src=sdkpreparse">Share</a></div>
       </div>
       <div class = footer></div>
        <div class = "selectDisable waves"></div>

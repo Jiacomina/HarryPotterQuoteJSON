@@ -24,7 +24,7 @@ body{
 	margin: 5px;
 }
 .button:hover{
-	opacity: 0.8;
+	transform: ;
 }
 .paragraph{
   font-size: 10px;
@@ -92,8 +92,12 @@ body{
 
 /* Buttons */
 .google-button{
-  width: 40px;
-  max-width: 10vw;
+  border-radius: 3px;
+  background-color: white;
+  height: 16px;
+  cursor: pointer;
+  margin-bottom: -5px;
+  padding: 2px;
 }
 
 .twitter-share-button{
