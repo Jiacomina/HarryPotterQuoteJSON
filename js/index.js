@@ -44,6 +44,8 @@ $(document).ready(function() {
 			el.before(newone);
 			$(".quote-box:last").remove();
 			$(".quote").html(quote);
+			$(".paragraph").css("visibility","visible");
+			$(".fb-share-button").css("visibility","visible");
     	});
 		
 	});
