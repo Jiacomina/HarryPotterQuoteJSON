@@ -191,7 +191,7 @@ body{
     font-size: 14px;
   }
 }
-@media all and (min-height: 700px) {
+@media all and (min-height: 500px) {
   .title{
   font-size: 7vh
   }
