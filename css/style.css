@@ -2,7 +2,7 @@ body{
   font-size: 14px;
   font-family: sans-serif;
   margin: 0px;
-  background-color: #e2ecf0;
+  background: rgba(212,228,239,1);
 }
 .selectDisable {
   user-drag: none; 
@@ -36,7 +36,8 @@ body{
   align-items: center;
   position: relative;
   margin: 0;
-  background-color: rgb(246 ,249, 250);
+  background-color: white;
+  opacity: 0.7;
   border-radius: 50%;
   height: 200px;
   width: 200px;
@@ -62,6 +63,7 @@ body{
 .quote{
   font-size: 12px;
   width: 70%; 
+  opacity: 1;
   font-family: 'Lato', monospace;
   color: rgb(74, 86 , 108);
 }
@@ -174,7 +176,7 @@ body{
   }
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-height: 500px) {
 .title{
   font-size: 35px;
   }
