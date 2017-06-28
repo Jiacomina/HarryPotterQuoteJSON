@@ -1,195 +1,193 @@
-
-[{
-	"Quote":"Sperm Whales can sleep with their bodies completely vertical to the ocean floor.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 0
-},
-{
-	"Quote":"The tusk or horn of the male narwhal is actually an oversized canine tooth.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 1
-},
-{
-	"Quote":"The head and lower jaw of humpback whales are covered with knobs called tubercles, which are actually hair follicles.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 2
-},
-{
-	"Quote":"James Drane is the largest whale on the planet, the second largest whale is the blue whale", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 3
-},
-{
-	"Quote":"Dory the fish who sounds like Ellen DeGeneres can speak whale", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 4
-},
-{
-	"Quote":"What do you call a pod of musical whales? An Orca-stra", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 5
-},
-{
-	"Quote":"My favourite whale is the Beluga", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 6
-},
-{
-	"Quote":"When a whale dies, it cannot swim anymore.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 7
-},
-{
-	"Quote":"There is a individual whale that transmits calls at a frequency no other whales transmit at. It has been called “the world’s loneliest whale.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 8
-},
-{
-	"Quote":"The water in a blue whale's mouth weighs as much as its entire body.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 9
-},
-{
-	"Quote":"If you spray paint a whale pink, it becomes pink in colour.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 10
-},
-{
-	"Quote":"Killer Whales like to prey on Moose.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 11
-},
-{
-	"Quote":"Many expensive perfumes contain whale poop.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 12
-},
-{
-	"Quote":"You can tell the age of a whale by counting the rings in its ear wax.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 13
-},
-{
-	"Quote":"Whales are big.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 14
-},
-{
-	"Quote":"On average, a whale travels approximately two times faster than a dead whale.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 15
-},
-{
-	"Quote":"Whales cannot take selfies.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 16
-},
-{
-	"Quote":"A Recent study reveals that whales cannot read.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 17
-},
-{
-	"Quote":"The average whale is about the size of a whale.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 18
-},
-{
-	"Quote":"A Beluga whale named 'Noc' Learnt to mimic human speech.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 19
-},
-{
-	"Quote":"The killer whale is a dolphin.", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 20
-},
-{
-	"Quote":"Whales can get sunburnt", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 21
-},
-{
-	"Quote":"Whales do not eat during migration", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 22
-},
-{
-	"Quote":"You can tell whether a whale is male or female from the shape of its dorsal fin", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 23
-},
-{
-	"Quote":"Whales are the loudest animals in the world", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 24
-},
-{
-	"Quote":"Bowhead whales can live for over 200 years", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 25
-},
-{
-	"Quote":"The beaked whale can dive over 2,000 meters", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 26
-},
-{
-	"Quote":"The sperm whale is the loudest whale and can make sound at 230 decibals", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 27
-},
-{
-	"Quote":"There are 14 species of baleen whales and 72 species of toothed whales, this includes dolphins and porpoises", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 28
-},
-{
-	"Quote":"Whales have a body temperature about the same as humans", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 29
-},
-{
-	"Quote":"Whales often travel in pods of up to 50 whales during spring", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 30
-}
-,
-{
-	"Quote":"Follow this link for Mystery Whale connect the dots: http://www.enchantedlearning.com/subjects/whales/activities/dots/Bluewhaledots.shtml ", 
-	"Likes":0, 
-	"Dislikes":0,
-	"id": 30
-}
+[
+    {
+        "Quote": "Sperm Whales can sleep with their bodies completely vertical to the ocean floor.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 0
+    },
+    {
+        "Quote": "The tusk or horn of the male narwhal is actually an oversized canine tooth.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 1
+    },
+    {
+        "Quote": "The head and lower jaw of humpback whales are covered with knobs called tubercles, which are actually hair follicles.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 2
+    },
+    {
+        "Quote": "James Drane is the largest whale on the planet, the second largest whale is the blue whale",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 3
+    },    {
+        "Quote": "Dory the fish who sounds like Ellen DeGeneres can speak whale",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 4
+    },
+    {
+        "Quote": "What do you call a pod of musical whales? An Orca-stra",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 5
+    },
+    {
+        "Quote": "My favourite whale is the Beluga",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 6
+    },
+    {
+        "Quote": "When a whale dies, it cannot swim anymore.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 7
+    },
+    {
+        "Quote": "There is a individual whale that transmits calls at a frequency no other whales transmit at. It has been called “the world’s loneliest whale.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 8
+    },
+    {
+        "Quote": "The water in a blue whale's mouth weighs as much as its entire body.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 9
+    },
+    {
+        "Quote": "If you spray paint a whale pink, it becomes pink in colour.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 10
+    },
+    {
+        "Quote": "Killer Whales like to prey on Moose.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 11
+    },
+    {
+        "Quote": "Many expensive perfumes contain whale poop.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 12
+    },
+    {
+        "Quote": "You can tell the age of a whale by counting the rings in its ear wax.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 13
+    },
+    {
+        "Quote": "Whales are big.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 14
+    },
+    {
+        "Quote": "On average, a whale travels approximately two times faster than a dead whale.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 15
+    },
+    {
+        "Quote": "Whales cannot take selfies.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 16
+    },
+    {
+        "Quote": "A Recent study reveals that whales cannot read.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 17
+    },
+    {
+        "Quote": "The average whale is about the size of a whale.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 18
+    },
+    {
+        "Quote": "A Beluga whale named 'Noc' Learnt to mimic human speech.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 19
+    },
+    {
+        "Quote": "The killer whale is a dolphin.",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 20
+    },
+    {
+        "Quote": "Whales can get sunburnt",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 21
+    },
+    {
+        "Quote": "Whales do not eat during migration",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 22
+    },
+    {
+        "Quote": "You can tell whether a whale is male or female from the shape of its dorsal fin",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 23
+    },
+    {
+        "Quote": "Whales are the loudest animals in the world",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 24
+    },
+    {
+        "Quote": "Bowhead whales can live for over 200 years",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 25
+    },
+    {
+        "Quote": "The beaked whale can dive over 2,000 meters",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 26
+    },
+    {
+        "Quote": "The sperm whale is the loudest whale and can make sound at 230 decibals",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 27
+    },
+    {
+        "Quote": "There are 14 species of baleen whales and 72 species of toothed whales, this includes dolphins and porpoises",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 28
+    },
+    {
+        "Quote": "Whales have a body temperature about the same as humans",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 29
+    },
+    {
+        "Quote": "Whales often travel in pods of up to 50 whales during spring",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 30
+    },
+    {
+        "Quote": "Follow this link for Mystery Whale connect the dots: http://www.enchantedlearning.com/subjects/whales/activities/dots/Bluewhaledots.shtml ",
+        "Likes": 0,
+        "Dislikes": 0,
+        "id": 30
+    }
 ]
